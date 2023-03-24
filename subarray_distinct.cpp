@@ -7,7 +7,7 @@ long long int subarrays(std::vector<int> data, int diversity){
     long long int matches = 0;
 
     for (int iii=0; iii<data.size(); iii++){
-        std::unordered_set<int> matchset = {};
+        std::unordered_set<int> matchset;
         for (int jjj = iii; jjj<data.size(); jjj++){
             matchset.insert(data[jjj]);
             if (matchset.size() >= diversity){
@@ -25,7 +25,7 @@ int main(){
     int length;
     int div;
     std::cin >> length >> div;
-    std::vector<int> data = {};
+    std::vector<int> data;
     for (int iii = 0; iii < length; iii++){
         int new_element;
         std::cin >> new_element;
