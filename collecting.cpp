@@ -1,6 +1,10 @@
 #include<iostream>
 #include<vector>
 
+/* An array is given and it has numbers from 1 to n in some order 
+and nothing else. The task is to collect all the numbers in an increasing order so if you are at k, you either
+proceed to k+1 if it has a larger index than k or you add one round. The number of rounds is printed. */
+
 int main(void){
 
     int size;
