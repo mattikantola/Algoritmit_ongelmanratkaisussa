@@ -4,6 +4,8 @@
 #include<vector>
 #include<algorithm>
 
+/* Making brute force backtracking anagrams, nothing special. */
+
 class Substrings{
 
     private:

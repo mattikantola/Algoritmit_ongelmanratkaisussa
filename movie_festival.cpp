@@ -2,6 +2,11 @@
 #include<deque>
 #include<algorithm>
 
+/* There is a movie festival and all you know are the start and end times of the movies. The task is to maximize
+the amount of movies you can watch entirely. My approach was greedy: I sorted the movies by their end times and
+started from the one that ended first. Then the algorithm always chooses the next movie that starts before the
+current movie ends. This works because there is no reason to choose a movie which ends later. */
+
 int main(){
 
     int number_of_movies = 0;

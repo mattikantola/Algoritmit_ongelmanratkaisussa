@@ -4,6 +4,9 @@ using namespace __gnu_pbds;
 
 typedef tree<int,null_type,std::less<int>,rb_tree_tag,tree_order_statistics_node_update> indexed_set;
 
+/* A generalization of the first Josephus problem. Now it is possible to skip any positive number of elements,
+which is best done using an indexed set. */
+
 int main(){
 
     long long int upper_limit, skip;

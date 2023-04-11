@@ -1,3 +1,5 @@
+/* Collatz conjecture */
+
 #include<iostream>
 
 

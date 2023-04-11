@@ -2,6 +2,10 @@
 #include<vector>
 #include<algorithm>
 
+/* The task was to take a list of coins and find the least natural number that can't be expressed as 
+a sum of one or more of those coins. My approach was simple: I sorted the coin list, maintained a cumulative sum
+and checked if it was more than or equal to the next coin. This was efficient because the bottleneck was the
+sorting. */
 
 class CoinSum{
 
